@@ -1,0 +1,200 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+.book-top{
+  width: 87%;
+  height: 50%;
+  background: lightpink;
+  position: absolute;
+  right:60%; 
+  bottom:0%; 
+  left:0%;
+}
+
+
+.candlebase{
+  background: orchid;
+  position: absolute;
+  bottom: 20%;
+  right: 80%;
+  width: 9%;
+  height: 2%;
+  z-index:3;
+}
+
+.candlebody{
+  background:mediumpurple;
+  position: absolute;
+  bottom: 20%;
+  right: 83.5%;
+  width: 2%;
+  height: 25%;
+  z-index:2;
+}
+
+.candlebodyup{
+   background:mediumpurple;
+  position: absolute;
+  bottom: 45%;
+  right: 82.5%;
+  width: 4%;
+  height: 20%;
+  z-index:3;
+}
+
+.candle{
+ background:powderblue;
+  position: absolute;
+  bottom: 64%;
+  right: 83%;
+  width: 2.5%;
+  height: 14%;
+  z-index:1;
+}
+
+.candlestick{
+ background:black;
+  position: absolute;
+  bottom: 78%;
+  right: 84%;
+  width: 0.6%;
+  height: 2%;
+  z-index:2;
+}
+
+
+.candlebase2{
+  background: orchid;
+  position: absolute;
+  bottom: 10%;
+  right: 65%;
+  width: 9%;
+  height: 3%;
+  z-index:3;
+}
+
+.candlebody2{
+  background:mediumpurple;
+  position: absolute;
+  bottom: 10%;
+  right: 68%;
+  width: 2%;
+  height: 25%;
+  z-index:2;
+}
+
+.candlebodyup2{
+   background:mediumpurple;
+  position: absolute;
+  bottom: 35%;
+  right: 67%;
+  width: 4%;
+  height: 20%;
+  z-index:3;
+}
+.candle2{
+ background:powderblue;
+ position: absolute;
+ bottom: 55%;
+ right: 68%;
+ width: 2.5%;
+ height: 14%;
+ z-index:1;
+}
+
+.candlestick2{
+ background:black;
+  position: absolute;
+  bottom: 68.8%;
+  right: 69%;
+  width: 0.6%;
+  height: 2%;
+  z-index:2;
+}
+
+.vase{
+   position: absolute;
+  width:23%;
+  height:35%;
+  border-radius:90px;
+  background:mediumpurple;
+  top: 62%;
+  left: 45%;
+  z-index:3;
+}
+
+.vaselid{
+  background: slategrey;
+  width: 3%;
+  height: 4%;
+  top: 58%;
+  left: 55%;
+  border-radius: 70%;
+  position: absolute;
+  z-index: 6;
+}
+
+.vaseopen{
+  background: orchid;
+  width: 17%;
+  height: 6%;
+  top: 60%;
+  left:48%;
+  border-radius: 70%;
+  position: absolute;
+  z-index:3;
+}
+
+.vaseclose{
+  background: mediumpurple;
+  width: 19%;
+  height: 8%;
+  top: 90%;
+  left: 47%;
+  border-radius: 40%;
+  position: absolute;
+  z-index: 5;
+}
+
+.pumpkin{
+  height: 26%;
+  width: 27%;
+  background-color: papayawhip;
+  border-radius: 50%;
+  position:absolute;
+  z-index:1;
+  left:27%;
+  transform: rotate(-15deg);
+  bottom:32%;
+}
+
+.pumpkin2{
+  height: 20%;
+  width: 16%;
+  background-color: peachpuff;
+  border-radius: 50%;
+  position:absolute;
+  z-index:1;
+  left:69%;
+  transform: rotate(58deg);
+  bottom:9%;
+}
+
